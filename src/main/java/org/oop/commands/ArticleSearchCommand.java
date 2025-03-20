@@ -8,7 +8,7 @@ import org.oop.di.Injector;
 import org.oop.model.Article;
 
 import java.util.List;
-
+//использование принципа Наследования и полиморфизма
 public class ArticleSearchCommand extends BaseCommand {
     private final IArticleService articleService;
 

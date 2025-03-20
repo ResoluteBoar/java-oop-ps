@@ -7,7 +7,7 @@ import org.oop.di.Injector;
 import org.oop.model.Article;
 
 import java.util.List;
-
+//Используется принцип наследования
 public class ArticleService implements IArticleService {
     private final IArticleDao articleDao;
     private final IAuthService authService;

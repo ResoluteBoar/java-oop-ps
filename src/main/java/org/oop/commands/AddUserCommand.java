@@ -8,7 +8,7 @@ import org.oop.di.Injector;
 import org.oop.model.Role;
 
 import java.util.Optional;
-
+//использование принципа Наследования и полиморфизма
 public class AddUserCommand extends BaseCommand {
     private final IUserService userService;
     public AddUserCommand() {

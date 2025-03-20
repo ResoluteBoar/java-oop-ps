@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
-
+//использование принципа Наследования, полиморфизма и инкапсуляции
 public abstract class BaseCommand implements ICommand {
     protected final Map<Integer, Supplier<ICommand>> commandSuppliers = new LinkedHashMap<>();
     protected IOService ioService;

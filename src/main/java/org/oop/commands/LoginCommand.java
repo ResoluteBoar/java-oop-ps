@@ -5,7 +5,7 @@ import org.oop.api.ICommand;
 import org.oop.commands.menu.BaseCommand;
 import org.oop.commands.menu.MainMenu;
 import org.oop.di.Injector;
-
+//использование принципа Наследования и полиморфизма
 public class LoginCommand extends BaseCommand {
     private final IAuthService authService;
 
