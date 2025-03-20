@@ -5,7 +5,7 @@ import org.oop.api.ICommand;
 import org.oop.commands.menu.ArticleMenu;
 import org.oop.commands.menu.BaseCommand;
 import org.oop.di.Injector;
-
+//использование принципа Наследования и полиморфизма
 public class DeleteArticleCommand extends BaseCommand {
     private final IArticleService articleService;
 
